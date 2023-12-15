@@ -111,7 +111,7 @@ class Configuration(object):
         """
         # Authentication Settings
         self.disabled_client_side_validations = disabled_client_side_validations
-        self.access_token = None
+        self.access_token = access_token or None
         """access token for OAuth/Bearer
         """
         self.logger = {}
